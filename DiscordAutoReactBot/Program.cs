@@ -44,6 +44,11 @@ namespace DiscordAutoEmojiBot
                 }
             };
 
+            Client.Ready += async e =>
+            {
+                Console.WriteLine("Connected!");
+            };
+
             await Client.ConnectAsync();
             await Task.Delay(-1);
         }
