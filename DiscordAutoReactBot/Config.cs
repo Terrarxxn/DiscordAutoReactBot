@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.IO;
 
-namespace DiscordAutoEmojiBot
+namespace DiscordAutoReactBot
 {
     class Config
     {

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using DSharpPlus;
 using DSharpPlus.Entities;
 
-namespace DiscordAutoEmojiBot
+namespace DiscordAutoReactBot
 {
     class Program
     {
