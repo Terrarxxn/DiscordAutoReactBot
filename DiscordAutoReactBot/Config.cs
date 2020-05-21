@@ -6,7 +6,6 @@ namespace DiscordAutoEmojiBot
     class Config
     {
         public string Token = "";
-        public ulong GuildID = 0;
         public ulong ChannelID = 0;
         public string[] Reactions = { ":thumbsup:", ":thumbsdown:", ":interrobang:" };
 
