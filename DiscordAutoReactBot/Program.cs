@@ -19,6 +19,12 @@ namespace DiscordAutoEmojiBot
         static async Task RunBotAsync()
         {
             Config cfg = Config.Read("config.json");
+            if (cfg.Token == "")
+            {
+                Console.WriteLine("Invalid bot token!");
+                Console.ReadKey();
+                return;
+            }
             Client = new DiscordClient(new DiscordConfiguration
             {
                 Token = cfg.Token,
