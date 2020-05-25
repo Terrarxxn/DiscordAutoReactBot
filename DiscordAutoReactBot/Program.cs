@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading;
 using System.Threading.Tasks;
 using DSharpPlus;
 using DSharpPlus.Entities;
@@ -12,7 +11,6 @@ namespace DiscordAutoReactBot
 
         static void Main(string[] args)
         {
-            var prog = new Program();
             RunBotAsync().GetAwaiter().GetResult();
         }
 
