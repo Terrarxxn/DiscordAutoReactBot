@@ -37,7 +37,7 @@ namespace DiscordAutoReactBot
                     foreach (string emoji in cfg.Reactions)
                     {
                         await e.Message.CreateReactionAsync(DiscordEmoji.FromName(Client, emoji));
-                        await Task.Delay(1000);
+                        await Task.Delay(150);
                     }
                 }
             };
